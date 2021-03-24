@@ -39,4 +39,3 @@ valorile de decalaj.
 
 Se citesc cele 2 string-uri din fisierul de intrare si se obtin offset-urile prin
 apelarea "automata_matcher". Acestea se scriu apoi in fisierul de iesire.
-
