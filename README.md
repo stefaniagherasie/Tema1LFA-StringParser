@@ -2,8 +2,8 @@
 [Tema1 Limbaje Formale si Automate (2020-2021, seria CB) 
 
 
-Tema presupune implementarea unui parser de string-uri folosind metoda Boyer-Moore.
-Pe baza lui string1 se genereaza matricea delta care se foloseste pentru a calcula
+Tema presupune implementarea unui parser de string-uri folosind metoda ```Boyer-Moore```.
+Pe baza lui string1 se genereaza matricea Delta care se foloseste pentru a calcula
 decalajul la parsarea lui string2.
 
 #### RULARE
