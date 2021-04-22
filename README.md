@@ -6,7 +6,7 @@ Tema presupune implementarea unui parser de string-uri folosind metoda ```Boyer-
 Pe baza lui string1 se genereaza matricea Delta care se foloseste pentru a calcula
 decalajul la parsarea lui string2.
 
-#### RULARE
+## Rulare
 > ```shell
 > python main.py  <input-file>  <output-file>
 > ```
@@ -18,7 +18,7 @@ decalajul la parsarea lui string2.
 >  - Pe prima linie ```valorile de decalaj``` (offset) la care se gasește string1 în string2
 >    separate de câte un spațiu
     
-#### IMPLEMENTARE
+## Implementare
 Constructia matricei Delta se realizeaza prin functia ```compute_delta``` care o
 genereaza linie cu linie. Initial se gasesc toate prefixele posibile din pattern
 (ex: pt LFA , prefixes = {0:"", 1:"L", 2:"LF", 3:"LFA"}). Apoi se creeaza fiecare linie din matrice. 
