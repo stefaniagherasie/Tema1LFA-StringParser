@@ -16,6 +16,7 @@ decalajul la parsarea lui string2.
  
 **Fisierul de output** va contine:
 - Pe prima linie ```valorile de decalaj``` (offset) la care se gasește string1 în string2 separate de câte un spațiu
+<br>
     
 ## Implementare
 Constructia matricei Delta se realizeaza prin functia ```compute_delta``` care o
