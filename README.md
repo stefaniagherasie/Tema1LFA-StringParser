@@ -7,16 +7,15 @@ Pe baza lui string1 se genereaza matricea Delta care se foloseste pentru a calcu
 decalajul la parsarea lui string2.
 
 ## Rulare
-> ```shell
-> python main.py  <input-file>  <output-file>
-> ```
-> **Fisierul de input** va contine:
->  - Pe prima linie se află ```string1``` pe baza căruia urmează se realizeaza funcția delta
->  - Pe a doua linie se află ```string2``` în care trebuie să se caute string1
->  
-> **Fisierul de output** va contine:
->  - Pe prima linie ```valorile de decalaj``` (offset) la care se gasește string1 în string2
->    separate de câte un spațiu
+```shell
+    python main.py  <input-file>  <output-file>
+```
+**Fisierul de input** va contine:
+- Pe prima linie se află ```string1``` pe baza căruia urmează se realizeaza funcția delta
+- Pe a doua linie se află ```string2``` în care trebuie să se caute string1
+ 
+**Fisierul de output** va contine:
+- Pe prima linie ```valorile de decalaj``` (offset) la care se gasește string1 în string2 separate de câte un spațiu
     
 ## Implementare
 Constructia matricei Delta se realizeaza prin functia ```compute_delta``` care o
